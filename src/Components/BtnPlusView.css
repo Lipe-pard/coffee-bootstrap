@@ -1,0 +1,6 @@
+.btn-orange{
+    background-color: var(--btn-oragen);
+    width: 30%;
+    padding: 2%;
+    font-family: 'Poppins';
+}

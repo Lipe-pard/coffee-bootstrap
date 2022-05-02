@@ -1,0 +1,13 @@
+.logo{
+    width: 7%;
+}
+
+.btn-user{
+    background-color: var(--btn-brown);
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.btn-user svg{
+    margin: 0 0 8px 0;
+}

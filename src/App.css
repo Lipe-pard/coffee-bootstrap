@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Lemon-Medium';
+    src: url('./Fonts/LEMONMILK-Medium.otf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+    --btn-oragen: #FFA439;
+    --hover-text: #FFA439;
+    --btn-brown: #161616;
+    --container-black: #111111;
+    --container-white: #F2F2F2;
+    --footer: #161616;
+    --title: 'Lemon-Medium';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-black{
+    background-color: var(--container-black);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container-white{
+    background-color: var(--container-white);
 }
 
-.App-link {
-  color: #61dafb;
+.container-white .card-product{
+    background-color: #171717;
+    color: #FFFFFF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-white .card-product p{
+    color: #CDCDCD;
+}
+
+p{
+    font-family: 'Poppins';
+}
+
+.text-area{
+    width: 50%;
+}
+
+.text-area p{
+    width: 90%;
+    margin-top: 5%;
+    font-size: 1.2rem;
+}
+
+.text-area h1{
+    font-family: var(--title);
 }
