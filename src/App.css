@@ -49,3 +49,11 @@ p{
 .text-area h1{
     font-family: var(--title);
 }
+
+.header .logo{
+    width: 5%;
+}
+
+.logo{
+    width: 7%;
+}

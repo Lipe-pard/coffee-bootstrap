@@ -1,10 +1,10 @@
 import './Shop.css';
-import NavShop from "../Components/NavShop"
+import HeaderShop from '../Components/HeaderShop';
 
 const Shop = () => {
     return(
         <>
-         <NavShop/>
+         <HeaderShop/>
         </>
     )
 }

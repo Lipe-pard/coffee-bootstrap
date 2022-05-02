@@ -1,0 +1,19 @@
+.header{
+    background-color: #161616;
+    width: 100vw;
+}
+
+.location{
+ color: #FFF;
+ align-self: center;
+ font-family: 'Poppins';
+}
+
+.location span{
+   font-size: 13px;
+   color: #BEBEBE;
+}
+
+.location .icon{
+    font-size: 35px;
+}

@@ -1,20 +1,36 @@
+import './NavShop.css';
 import {Nav, NavDropdown} from 'react-bootstrap'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 const NavShop = () => {
     return(  
         <Nav>
-        <NavDropdown id="nav-dropdown" title="Cafés">
-          <NavDropdown.Item>
-              <NavLink to="/shop"> Grão </NavLink>
-          </NavDropdown.Item>
-          <NavDropdown.Item>
-              <NavLink to="/shop"> Moídos </NavLink>
-          </NavDropdown.Item>
-          <NavDropdown.Item>
-              <NavLink to="/shop"> Cápsulas </NavLink>
-          </NavDropdown.Item>
-        </NavDropdown>
+                <NavDropdown className="drop" id="nav-dropdown" title="Cafés">
+                <NavDropdown.Item>
+                    <NavLink to="/shop"> Grão </NavLink>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                    <NavLink to="/shop"> Moídos </NavLink>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                    <NavLink to="/shop"> Cápsulas </NavLink>
+                </NavDropdown.Item>
+                </NavDropdown>
+            <Nav.Item>
+                <Nav.Link>
+                    <Link to="/"> Acessorios </Link>
+                </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Nav.Link>
+                    <Link to="/"> Ofertas do dia </Link>
+                </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Nav.Link>
+                    <Link to="/"> Promoções </Link>
+                </Nav.Link>
+            </Nav.Item>
       </Nav>
     )
 }
