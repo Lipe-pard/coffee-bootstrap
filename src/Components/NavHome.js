@@ -1,6 +1,6 @@
 import './NavHome.css';
 import {Nav} from 'react-bootstrap'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const NavHome = () => {
     return(
@@ -9,17 +9,17 @@ const NavHome = () => {
          <Nav className='justify-content-center'>
            <Nav.Item>
                <Nav.Link> 
-                 <Link to="/"> Home </Link>    
+                 <NavLink to="/"> Home </NavLink>    
                </Nav.Link>
             </Nav.Item>
             <Nav.Item>
                <Nav.Link> 
-                 <Link to="/loja"> Loja </Link>    
+                 <NavLink to="/loja"> Loja </NavLink>    
                </Nav.Link>
             </Nav.Item>
             <Nav.Item>
                <Nav.Link> 
-                 <Link to="/contatos"> Contatos </Link>    
+                 <NavLink to="/contatos"> Contatos </NavLink>    
                </Nav.Link>
            </Nav.Item>
          </Nav>

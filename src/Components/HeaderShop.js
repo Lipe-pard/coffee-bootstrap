@@ -9,13 +9,13 @@ const HeaderShop = () => {
     return(
      <Navbar className='justify-content-around pt-4 header navbar-dark'>
          <img src={Logo} alt="logo do site" className='logo'/>
-         <div className='d-flex m-0 location'>
+         <Link to="/" className='d-flex m-0 location'>
              <IoIosPin className='icon'/>
              <div>
-                 <span> Informe seu </span>
+                 <label> Informe seu </label>
                  <p> CEP </p>
              </div>
-         </div>
+         </Link>
          <NavShop/>
      </Navbar>
     )

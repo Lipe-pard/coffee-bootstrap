@@ -1,12 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router } from 'react-router-dom'
-import Route from './routes'
+import Routers from './routes'
 
 function App() {
   return (
     <Router>
-     <Route />
+     <Routers />
     </Router>
   );
 }
