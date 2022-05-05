@@ -5,7 +5,6 @@ import { NavLink } from 'react-router-dom';
 const NavHome = () => {
     return(
      <>
-     <nav>
          <Nav className='justify-content-center'>
            <Nav.Item>
                <Nav.Link> 
@@ -23,7 +22,6 @@ const NavHome = () => {
                </Nav.Link>
            </Nav.Item>
          </Nav>
-     </nav>
      </>
     );
 }

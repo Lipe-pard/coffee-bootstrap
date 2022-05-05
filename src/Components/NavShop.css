@@ -1,3 +1,10 @@
-.drop{
+#nav-dropdown-dark-example{
     color: #FFF !important;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 15px;
 }

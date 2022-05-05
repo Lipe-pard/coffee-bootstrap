@@ -9,11 +9,15 @@
  font-family: 'Poppins';
 }
 
-.location span{
+.location #text-min{
    font-size: 13px;
-   color: #BEBEBE;
 }
 
 .location .icon{
     font-size: 35px;
+}
+
+.icons-menu{
+    color: #FFF;
+    font-size: 25px;
 }

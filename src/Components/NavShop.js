@@ -4,8 +4,8 @@ import { NavLink, Link } from 'react-router-dom'
 
 const NavShop = () => {
     return(  
-        <Nav>
-                <NavDropdown className="drop" id="nav-dropdown" title="Cafés">
+        <Nav id="nav">
+                <NavDropdown className="drop" menuVariant="dark" id="nav-dropdown-dark-example"title="Cafés">
                 <NavDropdown.Item>
                     <NavLink to="/shop"> Grão </NavLink>
                 </NavDropdown.Item>
