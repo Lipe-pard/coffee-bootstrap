@@ -1,10 +1,14 @@
+import CardValue from '../Components/CardValue'
+import SearchBar from '../Components/SearchBar'
 import './Shop.css';
-import HeaderShop from '../Components/HeaderShop';
 
 const Shop = () => {
     return(
         <>
-         <HeaderShop/>
+        <SearchBar/>
+        <div className='p-4 d-flex' id="list-product"> 
+         <CardValue/>
+        </div>
         </>
     )
 }

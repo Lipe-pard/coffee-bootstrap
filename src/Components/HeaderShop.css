@@ -1,12 +1,13 @@
 .header{
     background-color: #161616;
-    width: 100vw;
 }
 
 .location{
  color: #FFF;
  align-self: center;
  font-family: 'Poppins';
+ left: 0;
+ right: 50%;
 }
 
 .location #text-min{
@@ -18,6 +19,10 @@
 }
 
 .icons-menu{
-    color: #FFF;
-    font-size: 25px;
+ width: 10%;
+ padding: 0 5px;
+}
+
+.icons-menu a{
+    padding: 7px;
 }

@@ -1,32 +1,42 @@
 import './HeaderShop.css';
 import Logo from '../Assets/Logo.svg'
 import NavShop from './NavShop';
-import { Navbar } from 'react-bootstrap'
+import { Navbar} from 'react-bootstrap'
 import { IoIosPin } from "react-icons/io";
-import {Link } from 'react-router-dom'
-import { Button } from 'react-bootstrap'
-
-import { HiOutlineHeart } from "react-icons/hi";
-import { BiUser } from "react-icons/bi";
-import { HiOutlineShoppingBag } from "react-icons/hi"
+import { NavLink, useNavigate } from 'react-router-dom'
+import * as eva from 'eva-icons'
+import { useEffect } from 'react';
 
 const HeaderShop = () => {
+
+    useEffect(() => {
+        eva.replace();
+    }, []);
+
+    let navigate = useNavigate();
+
     return(
-     <Navbar className='justify-content-evenly pt-4 header navbar-dark '>
-         <img src={Logo} alt="logo do site" className='logo'/>
-         <Link to="/" className='d-flex m-0 location'>
+     <Navbar className='justify-content-around p-3 header'>
+         <img src={Logo} alt="logo do site" className='logo' onClick={() => {navigate("/")} }/>        
+         <NavLink to="/" className='d-flex mt-2 location p-0'>
              <IoIosPin className='icon'/>
              <div id="text-area">
                  <spam id="text-min"> Informe seu </spam>
                  <p> CEP </p>
              </div>
-         </Link>
-         <NavShop></NavShop>
-         <div className='icons-menu'>
-               <HiOutlineHeart/>
-               <BiUser/>
-               <HiOutlineShoppingBag/>
-         </div>
+         </NavLink>
+         <NavShop/>
+         <div className='icons-menu d-flex'>
+             <NavLink to="/">
+                <i data-eva="person-outline" data-eva-height="30" data-eva-width ="30" data-eva-fill="#FFF"> </i>
+             </NavLink>
+             <NavLink to="/">
+                <i data-eva="heart-outline" data-eva-height="30" data-eva-width ="30" data-eva-fill="#FFF"> </i>
+             </NavLink>
+             <NavLink to="/">
+                <i data-eva="shopping-bag-outline" data-eva-height="30" data-eva-width ="30" data-eva-fill="#FFF"> </i>
+             </NavLink>
+        </div>
      </Navbar>
     )
 }
