@@ -4,8 +4,8 @@ body{
 
 #list-product{
     width: 100%;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 30px 15px;
+    gap: 30px 40px;
 }
 

@@ -3,4 +3,10 @@
     width: 30%;
     padding: 2%;
     font-family: 'Poppins';
+    transition: 0.5s;
+    border: none;
+}
+
+.btn-orange:hover{
+    background-color: #e77c02;
 }

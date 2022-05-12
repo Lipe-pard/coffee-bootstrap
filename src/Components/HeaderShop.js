@@ -18,7 +18,7 @@ const HeaderShop = () => {
     return(
      <Navbar className='justify-content-around p-3 header'>
          <img src={Logo} alt="logo do site" className='logo' onClick={() => {navigate("/")} }/>        
-         <NavLink to="/" className='d-flex mt-2 location p-0'>
+         <NavLink to="/" className='d-flex mt-2 location p-0 mt-4'>
              <IoIosPin className='icon'/>
              <div id="text-area">
                  <spam id="text-min"> Informe seu </spam>
