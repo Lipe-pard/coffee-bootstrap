@@ -27,7 +27,7 @@ const HeaderShop = () => {
          </NavLink>
          <NavShop/>
          <div className='icons-menu d-flex'>
-             <NavLink to="/">
+             <NavLink to="/login">
                 <i data-eva="person-outline" data-eva-height="30" data-eva-width ="30" data-eva-fill="#FFF"> </i>
              </NavLink>
              <NavLink to="/">

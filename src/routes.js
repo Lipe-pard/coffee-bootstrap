@@ -5,6 +5,7 @@ import Shop from './Pages/Shop'
 import Contacts from './Pages/Contacts'
 import NotFound from './Pages/NotFound'
 import LayoutShop from './Pages/Layouts/LayoutShop'
+import Login from './Pages/Login'
 
 const Routers = () => {
   return(
@@ -16,6 +17,7 @@ const Routers = () => {
            </Route>
            <Route path='/contatos' element={<Contacts />}/>
            <Route path='*' element={<NotFound/>}/>
+           <Route path='/login' element={<Login />}/>
        </Routes>
       </>
   )
