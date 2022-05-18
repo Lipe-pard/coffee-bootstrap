@@ -1,0 +1,26 @@
+#cardLogin{
+    width: 35rem;
+    padding: 20px;
+}
+
+#cardLogin input{
+    margin: 10px 0px;
+    border: none;
+    background-color: #F4F4F4;
+    padding: 15px 10px;
+    font-family: 'Poppins';
+}
+
+#cardLogin input::placeholder{
+    font-family: 'Poppins';
+}
+
+#cardLogin button{
+    width: 60%;
+    padding: 10px;
+    font-family: 'Poppins';
+}
+
+#cardLogin h1{
+    font-family: var(--title);
+}
