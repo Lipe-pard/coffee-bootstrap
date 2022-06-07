@@ -1,0 +1,18 @@
+.message{
+    font-family: 'Poppins';
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    align-self: center;
+    padding: 20px;
+}
+
+.sucess{
+    background-color: #00e13160;
+    color: #00AA11;
+}
+
+.error{
+    background-color: #ff000044;
+    color: #FF0000;
+}

@@ -1,0 +1,43 @@
+#cardLogin{
+    width: 35rem;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#cardLogin input{
+    margin: 10px 0px;
+    border: none;
+    background-color: #F4F4F4;
+    padding: 15px 10px;
+    font-family: 'Poppins';
+}
+
+#cardLogin input::placeholder{
+    font-family: 'Poppins';
+}
+
+#cardLogin button{
+    width: 40%;
+    padding: 15px 10px;
+    font-family: 'Poppins';
+    margin: 3.5rem 0px 30px 0px;
+}
+
+#cardLogin h1{
+    font-family: var(--title);
+    font-size: 50px;
+    margin: 2rem 0px;
+}
+
+#cardLogin a{
+    text-decoration: none;
+    text-align: end;
+    color: #111111;
+    transition: 0.4s;
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+
+#cardLogin a:hover{
+    color: var(--hover-text);
+}

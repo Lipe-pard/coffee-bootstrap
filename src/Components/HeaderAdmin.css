@@ -1,0 +1,19 @@
+.header{
+    background-color: #161616;
+}
+
+#search{
+    width: 90%;
+}
+
+.p-inputtext{
+    border-radius: 7px 0px 0px 7px;
+}
+
+#btnLogout{
+    background-color: #C6543B;
+    border: none;
+    padding: 10px 15px;
+    width: 100px;
+    font-family: 'Poppins';
+}

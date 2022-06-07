@@ -1,0 +1,60 @@
+#formAddProduct input{
+    border: none;
+    background-color: #ffffff;
+    padding: 15px 10px;
+    font-family: 'Poppins';
+    border-radius: 5px !important;
+}
+
+#formAddProduct textarea{
+    margin: 10px 0px;
+    border: none;
+    background-color: #ffffff;
+    padding: 15px 10px;
+    font-family: 'Poppins';
+    height: 175px;
+}
+
+#formAddProduct select{
+    margin: 10px 0px;
+    border: none;
+    background-color: #ffffff;
+    padding: 15px 10px;
+    font-family: 'Poppins';
+    width: 100%;
+}
+
+#btn-cadastro{
+    margin: 5px;
+    font-family: 'Poppins';
+    background-color: var(--btn-oragen);
+    border: none;
+}
+
+#inputColor{
+    width: 30%;
+    height: 180px;
+    padding: 0 !important;    
+}
+
+#group-inputs{
+    gap: 0px 30px;
+}
+
+#preview-upload{
+    width: 40%;
+    height: 350px;
+    background-color: #FBFBFB;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    fill: #E2E2E2;
+}
+
+#up-image button{
+   font-family: 'Poppins';
+   padding: 20px;
+   background-color: var(--btn-oragen);
+   border: none;
+}

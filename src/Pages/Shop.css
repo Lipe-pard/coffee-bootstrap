@@ -1,7 +1,3 @@
-body{
-    background-color: var(--container-white);
-}
-
 #list-product{
     width: 100%;
     justify-content: space-evenly;

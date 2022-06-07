@@ -1,0 +1,10 @@
+#containerScroll{
+    width: 50%;
+    height: 570px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+#containerScroll::-webkit-scrollbar {
+    display: none;
+    }

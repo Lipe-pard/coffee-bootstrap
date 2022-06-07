@@ -1,0 +1,27 @@
+#btn-delete{
+    fill: #FFF;
+}
+
+#btn-edit{
+    fill: #FFF;
+}
+
+#btn-view{
+    fill: #FFF;
+}
+
+#disc-admin{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+#price-admin{
+    font-size: 20px;
+    padding: 5px;
+}
+
+#obsDelete{
+    color: #949494;
+    font-family: 'Poppins';
+}
+

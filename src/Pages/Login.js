@@ -1,17 +1,12 @@
 import './Login.css'
-import {Card} from "react-bootstrap"
 import FormLogin from "../Components/FormLogin"
-import Overlay from "../Components/Overlay"
+import NavTransparent from '../Components/NavTransparent'
 
 const Login = () => {
     return(
         <>
-         <div className="bg">
-          <Overlay />
-          <Card id="cardLogin">
-              <FormLogin/>
-          </Card>
-         </div>
+          <NavTransparent titleBtn="Cadastrar-se" navigationReturn="/loja" navigationRegister="../cadastro"/>
+          <FormLogin/>
         </>
     )
 }

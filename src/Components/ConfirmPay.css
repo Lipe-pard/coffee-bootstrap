@@ -1,0 +1,34 @@
+#cardConfirmPay{
+    width: 30%;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 35px;
+}
+
+#cardConfirmPay h6{
+    font-family: var(--title);
+}
+
+#form p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #464646;
+    margin-top: 15px;
+}
+
+label{
+    font-family: 'Poppins';
+}
+
+#form #check{
+    padding: 8px;
+}
+
+#form #check:checked{
+  background-color: #FFA439;
+  border: #FFA439;
+}
+
+#form #check:focus{
+    box-shadow: none;
+}

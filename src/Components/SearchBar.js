@@ -5,12 +5,12 @@ import {Button} from 'react-bootstrap'
 const SearchBar = () => {
 
     return(
-        <div className='d-flex justify-content-center mt-4'>
+        <div className='d-flex justify-content-center'>
         <div className="p-input-icon-left search">
         <i className="pi pi-search" />
         <InputText type="text" placeholder="Pesquise por produtos ou marcas" className='search-input'/>   
         </div>
-        <Button id="btn-search" className='btns'> Pesquisar </Button>
+        <Button className='btns btn-search'> Pesquisar </Button>
         </div>
     )
 }

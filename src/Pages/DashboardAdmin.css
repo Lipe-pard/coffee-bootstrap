@@ -1,0 +1,12 @@
+#list-product{
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px 80px;
+}
+
+#addNewProduct{
+    font-family: 'Poppins';
+    background-color: #FFA439;
+    border: none;
+}

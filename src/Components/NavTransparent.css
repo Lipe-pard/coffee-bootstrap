@@ -1,0 +1,22 @@
+#return{
+    background-color: #C6543B;
+    color: #FFF;
+    border: 0;
+    transition: 0.4s;
+}
+
+#return:hover{
+    background-color: #96402d;
+}
+
+#btnOutline{
+    background-color: rgba(26, 26, 26, 0.548);
+    border: 2.5px solid #FFA439;
+    font-family: 'Poppins';
+    padding: 15px;
+    transition: 0.4s;
+}
+
+#btnOutline:hover{
+    background-color: #FFA439;
+}

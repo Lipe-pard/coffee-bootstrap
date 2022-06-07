@@ -1,0 +1,7 @@
+.title-pages{
+    font-family: var(--title);
+}
+
+body{
+    background-color: var(--container-white) !important;
+}

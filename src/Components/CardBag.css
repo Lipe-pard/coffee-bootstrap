@@ -1,0 +1,29 @@
+#imageCard{
+  background-color: violet;
+  width: 100%;
+  height: 210px;
+  margin: 10px;
+}
+
+#cardBag{
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+}
+
+#infoCardProd h5{
+    text-align: start;
+}
+
+#infoCardProd p{
+  color: #626262;
+  width: 90%;
+}
+
+#countValue h5{
+  align-self: center;
+  margin-right: 15%;
+  font-weight: 600;
+}

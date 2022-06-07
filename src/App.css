@@ -19,6 +19,10 @@
     background-color: var(--container-black);
 }
 
+.btn:focus{
+    box-shadow: none;
+}
+
 .container-white{
     background-color: var(--container-white);
 }
@@ -31,6 +35,18 @@
 .container-white .card-product p{
     color: #CDCDCD;
 }
+
+.defaltBtn{
+    background-color: #FFA439 !important;
+    border: none !important;
+    color: #FFF !important;
+    transition: 0.4s !important;
+  }
+  
+  .defaltBtn:hover{
+    background-color: #d8780b !important;
+    color: #FFF !important;
+  }
 
 p{
     font-family: 'Poppins';
@@ -58,3 +74,12 @@ p{
     width: 7%;
 }
 
+.noContent{
+    height: 100vh;
+    width: 100vw;
+}
+
+.card{
+    -webkit-box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.16); 
+    box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.16);
+}

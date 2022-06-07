@@ -1,0 +1,19 @@
+#headerBag{
+   justify-content: space-between;
+}
+
+#headerBag button{
+    fill: #FFF;
+    background-color: #161616;
+    border: 0;
+}
+
+#titleBag{
+    font-family: var(--title);
+    fill: #212529;
+}
+
+#titleBag h3{
+    font-size: 45px;
+    margin: 0;
+}

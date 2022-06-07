@@ -8,14 +8,17 @@
  font-family: 'Poppins';
  left: 0;
  right: 50%;
+ fill: #FFF;
+ transition: 0.4s;
 }
 
 .location #text-min{
    font-size: 13px;
 }
 
-.location .icon{
-    font-size: 35px;
+.location:hover{
+    color: var(--hover-text);
+    fill: var(--hover-text);
 }
 
 .icons-menu{
@@ -25,4 +28,10 @@
 
 .icons-menu a{
     padding: 7px;
+    fill: #FFF;
+    transition: 0.4s;
+}
+
+.icons-menu a:hover{
+    fill: var(--hover-text);
 }

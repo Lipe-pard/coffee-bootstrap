@@ -1,0 +1,34 @@
+.linkConsulta{
+    cursor: pointer;
+    color: #D87500;
+    fill: #D87500;
+}
+
+.linkConsulta:hover{
+    color: #ffb55b;
+    fill: #ffb55b;
+}
+
+#btnConsulta{
+    border-radius: 5px 0px 0px 5px;
+    background-color: #C6543B;
+    border: #C6543B;
+    font-family: 'Poppins';
+}
+
+#inputConsulta{
+    border-radius: 0px 5px 5px 0px;
+    width: 100%;
+    border: 0.2px solid #cccccc;
+    background-color: #F4F4F4;
+    padding: 15px 10px;
+    font-family: 'Poppins';
+}
+
+#inputConsulta:focus{
+    outline: none;
+}
+
+.modal-header{
+    border: none;
+}

@@ -1,13 +1,15 @@
-import {Button} from 'react-bootstrap'
+import {Button, Card} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 
 const FormLogin = () => {
     return(
-        <div>
-            <h1 className='text-center mt-4 mb-3'> Login </h1>
+        <Card id="cardLogin">
+            <h1 className='text-center'> Login </h1>
             <input placeholder='Email' className='form-control' type="email"/>
             <input placeholder='Senha' className='form-control' type="password"/>
-            <Button className="mx-auto mt-4"> Entrar </Button>
-        </div>
+            <Link to="/" className='reset-pass'> Esqueceu sua senha ? </Link>
+            <Button className="mx-auto defaltBtn" id="defaltBtn"> Entrar </Button>
+        </Card>
     )
 }
 

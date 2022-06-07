@@ -1,0 +1,73 @@
+#imgProd{
+    width: 40%;
+}
+
+#imgProd div{
+    width: 300px;
+    height: 500px;
+    background-color: brown;
+}
+
+#infoProd{
+    width: 50%;
+    margin-top: 3%;
+}
+
+#titleProd{
+    font-family: var(--title);
+}
+
+#discriptionProd{
+    width: 85%;
+    margin-top: 5%;
+}
+
+#subProd{
+    width: 84%;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+
+#valueProd{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#amountProd{
+    text-align: center;
+    width: 20%;
+    background: transparent;
+    border: 3px solid;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+/* #amountProd::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+} */
+
+#optionProd{
+    width: 85%;
+    margin-top: 8%;
+}
+
+#compra{
+    background-color: #D87500;
+    color: #FFF;
+    font-family: 'Poppins';
+    padding: 20px;
+    width: 40%;
+    font-weight: 500;
+}
+
+#addBag{
+  border: #D87500 5px solid;
+  background: transparent;
+  color: #D87500;
+  font-family: 'Poppins';
+  width: 40%;
+  font-weight: 500;
+}

@@ -20,7 +20,7 @@
     box-shadow: none;
 }
 
-#btn-search{
+.btn-search{
     border-radius: 0px 4px 4px 0px;
     font-family: 'Poppins';
     background-color: var(--btn-oragen);
@@ -29,6 +29,6 @@
     transition: 0.5s;
 }
 
-#btn-search:hover{
+.btn-search:hover{
     background-color: #ffc077;
 }
