@@ -1,6 +1,7 @@
 import './CardBag.css';
 import {useEffect, useState} from 'react'
 import AmountProd from './AmountProd';
+
 const CardBag = () => {
 
     const [prod, setProd] = useState(null)
@@ -26,10 +27,7 @@ const CardBag = () => {
                        <div id="infoCardProd">
                         <h5> {prod.name} </h5>
                         <p> {prod.discription} </p>
-                        <div className="d-flex justify-content-between" id="countValue">
-                        <AmountProd />
-                        <h5> R$ {prod.value} </h5>
-                        </div>
+                        <AmountProd value={prod.value} idProd={prod.id}/>
                        </div>
                    </div>
                )

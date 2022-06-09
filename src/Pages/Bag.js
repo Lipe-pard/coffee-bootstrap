@@ -7,7 +7,7 @@ const Bag = () => {
 
     return(
         <>
-                <HeaderBag/>
+            <HeaderBag/>
             <div className='d-flex'>
                 <div id="containerScroll">
                     <CardBag/> 

@@ -12,10 +12,14 @@ const NavTransparent = (props) => {
 
     let navigate = useNavigate();
 
+    function navigateBack(){
+        window.history.back()
+    }
+
     return(
         <>
          <header id="navTrasparent" className="d-flex justify-content-between w-100 p-4 mt-3">
-           <Button onClick={() => { navigate(props.navigationReturn) }} id="return">
+           <Button onClick={() => navigateBack()} id="return">
            <i data-eva="arrow-back-outline" data-eva-height="30" data-eva-width ="30" data-eva-fill="#FFF"> </i>
            </Button>
            <Button id="btnOutline" onClick={() => { navigate(props.navigationRegister) }}> {props.titleBtn} </Button>
