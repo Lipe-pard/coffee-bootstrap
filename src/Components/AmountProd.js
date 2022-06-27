@@ -3,9 +3,7 @@ import {useState} from 'react'
 import { Button } from 'react-bootstrap'
 
 const AmountProd = (props) => {
-    
     const [count, setCount] = useState(1)
-
     function sub(){
         if(count !== 1){
             setCount(count - 1)
@@ -13,16 +11,7 @@ const AmountProd = (props) => {
     }
 
     const valueProd = (props.value)
-
-    const dadosCount = {
-        id: (props.idProd), 
-        count: count
-    }
-
-
-    function storageValueCount(){
-        localStorage.setItem("dadoCount", JSON.stringify(dadosCount))
-    }
+    const TotalValue = valueProd * count
 
     return(
         <div className="d-flex justify-content-between" id="countValue">
@@ -31,8 +20,7 @@ const AmountProd = (props) => {
           <div id="display" count={count}> {count} </div>
           <Button id="plusBtn" onClick={() => setCount(count + 1)}> + </Button>
         </div>
-        <h5> R$ {valueProd * count} </h5>
-        {storageValueCount()}
+        <h5> R$ {TotalValue}</h5>
         </div>
     )
 }

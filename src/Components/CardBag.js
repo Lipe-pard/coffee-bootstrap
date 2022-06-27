@@ -1,6 +1,6 @@
 import './CardBag.css';
 import {useEffect, useState} from 'react'
-import AmountProd from './AmountProd';
+import {useBag} from '../Providers/bagProvider'
 
 const CardBag = () => {
 
@@ -15,25 +15,43 @@ const CardBag = () => {
             .then((data) => {setProd(data)});
     }, [])
 
-    return(
-        <div className='m-4'>
-        {
-           prod && prod.map((prod) => {
-               return(
-                   <div key={prod.id} id="cardBag" className="m-3">
-                       <div id="imageCard">
+    const {idItens} = useBag()
+    const count = parseInt(idItens.length)
 
-                       </div>
-                       <div id="infoCardProd">
-                        <h5> {prod.name} </h5>
-                        <p> {prod.discription} </p>
-                        <AmountProd value={prod.value} idProd={prod.id}/>
-                       </div>
-                   </div>
-               )
-           })
+    function visible(){
+        if(count !== 0){
+            return(
+                <div className='m-4'>
+                  {
+                    prod && prod.map((prod) => {
+                        return(
+                            <div key={prod.id} id="cardBag" className="m-2">
+                                <img src={prod.image} className='photoBag'/>
+                                <div id="infoCardProd">
+                                    <h5> {prod.name} </h5>
+                                    <p> {prod.discription} </p>
+                                    <h4 id="countValue">  {prod.value} </h4>
+                                </div>
+                            </div>
+                        )
+                    })
+                }
+                </div>
+            )
+        }else{
+            return(
+                <>
+                    <h1> Não há Itens Adicionado a Sacola </h1>
+                </>
+            )
         }
-        </div>
+    }
+
+
+    return(
+        <>
+            {visible()}
+        </>
     )
 }
 

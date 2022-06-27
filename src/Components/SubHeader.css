@@ -1,0 +1,15 @@
+#titlePage{
+    font-family: var(--title);
+}
+
+#head button{
+    margin-right: 10%;
+    fill: #FFF;
+    background-color: #C6543B;
+    border: none;
+}
+
+#head h3{
+    align-self: center;
+    margin: 0 !important;
+}

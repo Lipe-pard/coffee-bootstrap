@@ -5,7 +5,9 @@ import './Shop.css';
 const Shop = () => {
     return(
         <>
-        <SearchBar/>
+        <div className="searchBar">
+            <SearchBar/>
+        </div>
         <div className='p-4 d-flex' id="list-product"> 
          <CardValue/>
         </div>

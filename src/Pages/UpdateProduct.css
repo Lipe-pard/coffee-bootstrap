@@ -1,0 +1,60 @@
+#formUpProduct{
+    width: 90%;
+    justify-content: center;
+}
+
+#formUpProduct input{
+    border: none;
+    background-color: #ffffff;
+    padding: 15px 10px;
+    font-family: 'Poppins';
+    border-radius: 5px !important;
+}
+
+#formUpProduct textarea{
+    margin: 10px 0px;
+    border: none;
+    background-color: #ffffff;
+    padding: 15px 10px;
+    font-family: 'Poppins';
+    max-height: 120px;
+    min-height: 120px;
+}
+
+#formUpProduct select{
+    margin: 10px 0px;
+    border: none;
+    background-color: #ffffff;
+    padding: 15px 10px;
+    font-family: 'Poppins';
+    width: 100%;
+}
+
+.input-flex{
+    width: 48%;
+}
+
+.input-flex:nth-child(2){
+    margin-left: 4%;
+}
+
+#photoCoffee{
+    width: 80%
+}
+
+#inputColorUp{
+    width: 20%;
+    height: 126px;
+    border: none !important;
+    border-radius: 3px !important;
+    margin-right: 5%;
+    margin-top: 1%;
+    padding: 0 !important;
+}
+
+#btnUp{
+    background-color: #FFA450 !important;
+    color: #FFF !important;
+    float: right !important;
+    padding: 20px 50px !important;
+}

@@ -1,3 +1,8 @@
+#formAddProduct{
+    width: 60%;
+    justify-content: center;
+}
+
 #formAddProduct input{
     border: none;
     background-color: #ffffff;
@@ -13,6 +18,7 @@
     padding: 15px 10px;
     font-family: 'Poppins';
     height: 175px;
+    height: 80px;
 }
 
 #formAddProduct select{
@@ -32,8 +38,8 @@
 }
 
 #inputColor{
-    width: 30%;
-    height: 180px;
+    width: 40% !important;
+    height: 177px !important;
     padding: 0 !important;    
 }
 
@@ -57,4 +63,11 @@
    padding: 20px;
    background-color: var(--btn-oragen);
    border: none;
+}
+
+#btnCadastro{
+    background-color: #FFA450;
+    border: none;
+    padding: 20px 60px;
+    font-family: 'Poppins';
 }

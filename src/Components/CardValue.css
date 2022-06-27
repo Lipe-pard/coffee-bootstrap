@@ -1,0 +1,27 @@
+.photo{
+    width: 60%;
+    z-index: 5;
+    bottom: 62%;
+    left: 19.5%;
+    position: absolute;
+}
+
+.photoAcess{
+    width: 68%;
+    z-index: 5;
+    bottom: 60%;
+    left: 19.5%;
+    position: absolute;
+}
+
+#cardProd{
+    cursor: pointer;
+}
+
+.photoCaps{
+    width: 75%;
+    z-index: 5;
+    bottom: 62%;
+    left: 10.5%;
+    position: absolute;
+}

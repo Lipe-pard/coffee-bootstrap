@@ -35,10 +35,8 @@ const Product = () => {
                 <>
                   {
                       product.map(prod => (
-                       <div className='d-flex justify-content-center p-5'>
-                           <div id='imgProd'>
-                               <div className="mx-auto"></div>
-                           </div>
+                       <div className='d-flex justify-content-center p-5' key={prod.id}>
+                            <img src={prod.image} alt="imagem do café" id="imgProd"/>
                             <div id='infoProd' className='mb-3'>
                                 <h1 id="titleProd"> {prod.name} </h1>
                                 <p id="discriptionProd"> {prod.discription} </p>

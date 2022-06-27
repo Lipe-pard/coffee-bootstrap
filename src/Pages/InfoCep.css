@@ -1,0 +1,17 @@
+.informCep input{
+    border-radius: 0px 5px 5px 0px;
+    width: 100%;
+    border: 0.2px solid #cccccc;
+    background-color: #F4F4F4;
+    padding: 15px 10px;
+    font-family: 'Poppins';
+}
+
+.informCep{
+    margin-top: 10%;
+}
+
+#titleCep{
+    font-family: var(--title);
+    margin-top: 5%;
+}

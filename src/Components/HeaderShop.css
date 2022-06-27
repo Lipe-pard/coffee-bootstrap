@@ -10,6 +10,7 @@
  right: 50%;
  fill: #FFF;
  transition: 0.4s;
+ cursor: pointer;
 }
 
 .location #text-min{
@@ -19,6 +20,53 @@
 .location:hover{
     color: var(--hover-text);
     fill: var(--hover-text);
+}
+
+.modal-header{
+    border: none
+}
+
+#titleModal{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+
+#inputCep{
+    border: none;
+    background-color: #ebebeb;
+    padding: 15px 10px;
+    font-family: 'Poppins';
+    border-radius: 0px 5px 5px 0px;
+    width: 100%;
+}
+
+#inputCep:focus{
+    border: none !important;
+    outline: none !important;
+}
+
+#consultaCep{
+    font-family: 'Poppins';
+    border-radius: 5px 0px 0px 5px;
+    background-color: #C6543B;
+    border: none;
+}
+
+.modal-body{
+    margin: 5%;
+}
+
+#count{
+    font-size: 10px;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #C6543B;
+    z-index: 2;
+    position: absolute;
 }
 
 .icons-menu{
@@ -34,4 +82,28 @@
 
 .icons-menu a:hover{
     fill: var(--hover-text);
+}
+
+.icons-menu #logout{
+    padding: 7px;
+    fill: #FFF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.icons-menu #logout:hover{
+    fill: var(--hover-text);
+}
+
+#person p{
+    margin: 0;
+    padding: 12px 20px;
+    font-weight: 900;
+}
+
+#person{
+    background-color: #C6543B;
+    color: #FFF;
+    border-radius: 100%;
+    margin: 0 10%;
 }
