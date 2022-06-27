@@ -1,10 +1,32 @@
 import './CardNoValue.css';
 import { Card } from 'react-bootstrap'
 
-const CardNoValue = () => {
+const CardNoValue = (props) => {
+
+    const color = props.color
+    const image = props.image
+    const type = props.type
+
+    function typeImage(type){
+        if(type === 'moido' || type === 'grao'){
+         return(
+          'photo'
+         )
+        }else if(type === 'acessorio'){
+          return(
+            'photoAcess'
+           )
+        }else if(type === 'capsula'){
+         return(
+          'photoCaps'
+         )
+        }
+      }
+
     return(
         <Card className='card-product border-0'>
-            <div className='bg-product'></div>
+            <img src={image} alt="photo coffee" className={typeImage(type)} />
+            <div className='bg-product' style={{background: color}}></div>
             <h5> Café Excelsior Extraforte </h5>
             <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

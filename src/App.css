@@ -17,6 +17,7 @@
 
 .container-black{
     background-color: var(--container-black);
+    padding-top: 10%;
 }
 
 .btn:focus{

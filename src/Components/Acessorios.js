@@ -6,8 +6,8 @@ import BtnPlusView from './BtnPlusView';
 const Acessorios = () => {
     return(
         <div className='container-white p-4'>
-            <Container className="d-flex justify-content-between">
-                <CardNoValue className="card-black"/>
+            <Container className="d-flex justify-content-between mt-5 p-5">
+                <CardNoValue className="card-black" color={"#37363b"} type={'acessorio'} image={"https://res.cloudinary.com/riqra/image/upload/w_906,h_906,c_limit,q_auto,f_auto/v1630101787/sellers/villa-alta/1607631425421.png"}/>
                 <div className='text-area'> 
                     <h1 className='title'> Acessórios </h1>
                     <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

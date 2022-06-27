@@ -6,7 +6,7 @@ import BtnPlusView from './BtnPlusView';
 const Capsulas = () => {
     return(
         <div className='container-black p-4'>
-            <Container className="d-flex justify-content-between">
+            <Container className="d-flex justify-content-between mt-5 p-5">
                 <div className='text-area text-light'> 
                     <h1 className='title'> Capsulas de café </h1>
                     <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -18,7 +18,7 @@ const Capsulas = () => {
                     </p>
                     <BtnPlusView/>
                 </div>
-                <CardNoValue />
+                <CardNoValue color="#ba7245" type={"capsula"} image={"https://admintresc.vteximg.com.br/arquivos/ids/538749/00746_MERCAFE___Imagem_Cafe_com_Leite_2.png?v=637744216982630000"}/>
             </Container>
         </div>
     );
