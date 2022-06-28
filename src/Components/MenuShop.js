@@ -2,7 +2,7 @@ import * as eva from 'eva-icons'
 import { useEffect } from 'react'
 import {NavLink} from 'react-router-dom'
 
-const MenuShop = (props) => {
+const MenuShop = () => {
 
     useEffect(() => {
         eva.replace();
@@ -15,7 +15,6 @@ const MenuShop = (props) => {
                   <i data-eva="person-outline" data-eva-height="30" data-eva-width ="30"/>
               </NavLink>
               <NavLink to="/sacola">
-                  <div id="count"> {props.count} </div>
                   <i data-eva="shopping-bag-outline" data-eva-height="30" data-eva-width ="30"/>
               </NavLink>
             </div>
